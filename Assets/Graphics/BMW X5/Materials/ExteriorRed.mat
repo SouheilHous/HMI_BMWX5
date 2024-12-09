@@ -37,7 +37,7 @@ Material:
     RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _BaseColor _BaseMap
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -132,10 +132,10 @@ Material:
     - normalTexture_texCoord: 0
     - occlusionTexture_strength: 1
     - occlusionTexture_texCoord: 0
-    - roughnessFactor: 0.1
+    - roughnessFactor: 0.184
     - transmissionFactor: 0
     m_Colors:
-    - baseColorFactor: {r: 0.983952, g: 0, b: 0.047588937, a: 1}
+    - baseColorFactor: {r: 1, g: 0, b: 0.047808647, a: 1}
     - baseColorTexture_Rotation: {r: 0, g: 0, b: 0, a: 0}
     - clearcoatRoughnessTexture_Rotation: {r: 0, g: 0, b: 0, a: 0}
     - clearcoatTexture_Rotation: {r: 0, g: 0, b: 0, a: 0}
