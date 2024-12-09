@@ -8,11 +8,10 @@
       "hash": "9631f6059050cd5eb8b96836ac77d0309cf40207"
     },
     "com.umbrason.orbitcameracontroller": {
-      "version": "https://github.com/Umbrason/OrbitCameraController.git",
+      "version": "file:OrbitCam",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "cae4539e386f76ef4b1301b4eb6654906bbb8bbe"
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.burst": {
       "version": "1.8.18",
