@@ -5814,6 +5814,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPS Counter (White)
       objectReference: {fileID: 0}
+    - target: {fileID: 786967402357734150, guid: fc243675728653a4093f82ccb2e59921,
+        type: 3}
+      propertyPath: logWrite
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 786967402357734150, guid: fc243675728653a4093f82ccb2e59921,
+        type: 3}
+      propertyPath: highestPossibleFPS
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 786967402357734151, guid: fc243675728653a4093f82ccb2e59921,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6488,6 +6498,26 @@ PrefabInstance:
     - target: {fileID: 2787292824456181285, guid: 1f4bc91349fee344aaf76883a266a7ce,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135111140446774670, guid: 1f4bc91349fee344aaf76883a266a7ce,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135111140446774670, guid: 1f4bc91349fee344aaf76883a266a7ce,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135111140446774670, guid: 1f4bc91349fee344aaf76883a266a7ce,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135111140446774670, guid: 1f4bc91349fee344aaf76883a266a7ce,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5746227554512577853, guid: 1f4bc91349fee344aaf76883a266a7ce,
