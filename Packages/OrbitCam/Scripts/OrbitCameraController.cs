@@ -22,6 +22,8 @@ public class OrbitCameraController : MonoBehaviour
 
     private float AbsoluteTargetZoom { get { return Mathf.Lerp(zoomSettings.zoomRange.x, zoomSettings.zoomRange.y, normalizedTargetZoom); } set { normalizedTargetZoom = Mathf.InverseLerp(zoomSettings.zoomRange.x, zoomSettings.zoomRange.y, value); } }
 
+    public static bool IsInteractingWithPicker = false; // Static flag to track interaction
+
 
 
     private enum CameraControllerState
@@ -100,6 +102,10 @@ public class OrbitCameraController : MonoBehaviour
 
     public void Update()
     {
+
+        if (IsInteractingWithPicker)
+            return;
+
         UpdateState();
 
         switch (state)
@@ -128,7 +134,9 @@ public class OrbitCameraController : MonoBehaviour
                 DoTouchZoom();
                 break;
             case CameraControllerState.TouchPan:
-                DoTouchPan();
+               
+                    DoTouchPan();
+
                 break;
         }
 
@@ -263,11 +271,18 @@ public class OrbitCameraController : MonoBehaviour
     {
         if (Touch.activeTouches.Count == 2)
         {
+            // Calculate the average movement delta between two fingers
             Vector2 averageDelta = (Touch.activeTouches[0].delta + Touch.activeTouches[1].delta) * 0.5f;
-            Vector3 deltaPosition = ScreenPointToWorldXZPlane(transform.position.y, Input.mousePosition + new Vector3 (averageDelta.x, averageDelta.y,0));
-            transform.position -= deltaPosition;
+
+            // Convert the average delta to world space movement
+            Vector3 rightMovement = transform.right * averageDelta.x * movementSettings.movementSpeed * Time.deltaTime;
+            Vector3 upMovement = transform.up * averageDelta.y * movementSettings.movementSpeed * Time.deltaTime;
+
+            // Apply the movement to the camera's position
+            transform.position -= rightMovement + upMovement;
         }
     }
+
 
 
     private void DoKeyboardMovement()

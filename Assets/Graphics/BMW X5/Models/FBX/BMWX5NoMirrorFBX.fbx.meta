@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: 4dbfbade342a74415b65ccc25233d4c5
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AluminumBrushed
+    second: {fileID: 2100000, guid: 69181e476eca5429487962735f00be8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AluminumFineGrained
+    second: {fileID: 2100000, guid: 403552d4aa4544cc8ae680c22bdcca45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AluminumLight
+    second: {fileID: 2100000, guid: a348b1383bd1945818d945848cf8241b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AluminumMatteBlack
+    second: {fileID: 2100000, guid: ee01ea6af8e014683aadb937aae538fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrakeDisk
+    second: {fileID: 2100000, guid: 3fa2921558a03446ca5a31a0850cbfeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChromeMatte
+    second: {fileID: 2100000, guid: 0632c55577d9345b4847566d07c60961, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorGlass
+    second: {fileID: 2100000, guid: 66086974da7354b368fc98fb49c65397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorInterior
+    second: {fileID: 2100000, guid: 8ad1835c64c7b4c89aed94b8ad8cc92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emission
+    second: {fileID: 2100000, guid: 380004d1ce8f94074aaa9023d86f96d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExteriorRed
+    second: {fileID: 2100000, guid: 739fb66d6170d47c7ab85f089f15e063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: General
+    second: {fileID: 2100000, guid: 848349e6e0dd344fb93af822115d3234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: General004
+    second: {fileID: 2100000, guid: 85b53bcc5f40f4ba9b7ead215d6c6542, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: General006
+    second: {fileID: 2100000, guid: 4511932102f5f4d92b73631f3bd98893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass2SidedDark
+    second: {fileID: 2100000, guid: 3a3d1214f4a2b43c3899b0a437cb4ef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MNone002
+    second: {fileID: 2100000, guid: cba8f6c9e54c54c64b7ef582ad4856c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MNone01
+    second: {fileID: 2100000, guid: 69ac4ca039be3472281847c1460b12b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_ParadoxCat_LicensePlate
+    second: {fileID: 2100000, guid: 700823aa3632e4df09bf49939721b6d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Aluminum_glossy_vaporized
+    second: {fileID: 2100000, guid: ff84d2dd4c75d4144b86b6197ec3c258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Aluminum_matte_black.001
+    second: {fileID: 2100000, guid: ba37560cda4594221b66f29f9b2dd2fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Chrome.002
+    second: {fileID: 2100000, guid: afe182c0a37894ba5bb171f715b0e6d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Emblem
+    second: {fileID: 2100000, guid: bca091ea763a84b699e51b061d8f1f75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Glass_Print_dark
+    second: {fileID: 2100000, guid: 2c5aa9ba1ad874df790345f81f621627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Glass_glossy_clear
+    second: {fileID: 2100000, guid: 3752ffb85545d48ab93095c5050dcb22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Glass_glossy_smokedgray
+    second: {fileID: 2100000, guid: 8e52473541ebd461c88b0f9b02249aaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Glass_opaque_lightgray
+    second: {fileID: 2100000, guid: f269eb09b862d48539dd5d98de70aa45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Glass_opaque_red
+    second: {fileID: 2100000, guid: ff07d5f5b0ba440fb909cd3e1a08f5f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Lens_clear
+    second: {fileID: 2100000, guid: 3dbf11857fa6947afa975362b19decf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Lens_red
+    second: {fileID: 2100000, guid: 4653d45c01ce6434da68b3e9724bc87d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_LightEffect_B
+    second: {fileID: 2100000, guid: 3bb6801f752dd45d9b8064fbaee56971, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_LightEffect_B.001
+    second: {fileID: 2100000, guid: e4cb384ab9f014e21bcae1f61266dfc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_LightEffect_F
+    second: {fileID: 2100000, guid: 1e25ec2476b434739b5bc81112b0596d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_LightEffect_F.001
+    second: {fileID: 2100000, guid: 52bd445a3fb124663bffddb8d9e8e76c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Plastic_grained_black.001
+    second: {fileID: 2100000, guid: 78cb758ef88b84c8882aeeb62ac3bb80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Plastic_grained_black.003
+    second: {fileID: 2100000, guid: e3d389f8170dd41bc929b3f545fb2d96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_E_common_Plastic_grained_black.007
+    second: {fileID: 2100000, guid: 29380af40754646b3b1fbc61a426a291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_I_common_general.003
+    second: {fileID: 2100000, guid: b19c74253496f4734bc2343019f6d3e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_I_common_general.007
+    second: {fileID: 2100000, guid: 9000f2cd4fce94d778b692c3b00319c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mnone
+    second: {fileID: 2100000, guid: 6644e596866a745be9eda73acf328d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticGlossyBlack
+    second: {fileID: 2100000, guid: f801b97f4cd1f4c1c8d5b27e2866f899, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticGrainedBlack
+    second: {fileID: 2100000, guid: af0ee5099a9dd43f9a9af8b889d3c257, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticMatteBlack
+    second: {fileID: 2100000, guid: 26a7f007a7792405fb82346410677242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RimPaintGray
+    second: {fileID: 2100000, guid: e5a5ca75f585d43c9835424e50b5eeca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RimPaintSilver
+    second: {fileID: 2100000, guid: 3a5472bed9a0b464b9801bf9b490bb89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SideMirror
+    second: {fileID: 2100000, guid: 61c0002acbc144cb7b87f4eacf9f9e38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire
+    second: {fileID: 2100000, guid: 001c8ad7419d447258d0ca56a22f9b64, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
