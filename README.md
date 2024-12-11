@@ -1,5 +1,7 @@
 # HMI_BMWX5
 
+<img width="1392" alt="Screenshot 2024-12-11 at 17 43 59" src="https://github.com/user-attachments/assets/b722f92b-881a-455d-a929-ad38edd6d73e">
+
 A Unity-based prototype for managing and simulating Human-Machine Interface (HMI) interactions for a BMW X5 vehicle. This project integrates features for controlling vehicle parts, dynamically adjusting rendering settings, and seamlessly switching between scenes with platform-dependent optimizations.
 
 ## Features
@@ -14,6 +16,8 @@ A Unity-based prototype for managing and simulating Human-Machine Interface (HMI
 - **Front Doors**: Both doors open and close simultaneously with smooth animations.
 - **Back Doors**: Both doors open and close simultaneously with reversed angles for left and right.
 - **Back Hatch**: Opens and closes with smooth animations, adjustable angles.
+
+<img width="1392" alt="Screenshot 2024-12-11 at 17 44 34" src="https://github.com/user-attachments/assets/b95c0110-fe6c-4405-8249-7229660eb105">
 
 #### **Color Customization**
 - Integrated color picker allows dynamic vehicle color changes.
