@@ -2,6 +2,10 @@
 
 <img width="1392" alt="Screenshot 2024-12-11 at 17 43 59" src="https://github.com/user-attachments/assets/b722f92b-881a-455d-a929-ad38edd6d73e">
 
+## Demo Video : 
+
+[Demo Video](https://youtu.be/CYv63QAFTtg)
+
 A Unity-based prototype for managing and simulating Human-Machine Interface (HMI) interactions for a BMW X5 vehicle. This project integrates features for controlling vehicle parts, dynamically adjusting rendering settings, and seamlessly switching between scenes with platform-dependent optimizations.
 
 ## Features
