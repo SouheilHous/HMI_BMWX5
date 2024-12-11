@@ -29,10 +29,15 @@ public class SceneAndQualityManager : MonoBehaviour
     {
         if (useDifferentURPAssets)
         {
-            if (urpAssetScene1 == null || urpAssetScene2 == null)
+            if (urpAssetScene1 == null && urpAssetScene2 == null)
             {
-                Debug.LogError("One or both URP Assets are not assigned. Please assign valid URP assets.");
+                Debug.LogError("Both URP Assets are not assigned. Please assign valid URP assets.");
+                return;
             }
+
+            // Apply render scale to available URP assets
+            SetRenderScaleBasedOnDevice(urpAssetScene1);
+            SetRenderScaleBasedOnDevice(urpAssetScene2);
         }
         else
         {
@@ -42,7 +47,7 @@ public class SceneAndQualityManager : MonoBehaviour
 
     public void LoadScene1()
     {
-        if (useDifferentURPAssets)
+        if (useDifferentURPAssets && urpAssetScene1 != null)
         {
             SetURPAsset(urpAssetScene1);
         }
@@ -56,7 +61,7 @@ public class SceneAndQualityManager : MonoBehaviour
 
     public void LoadScene2()
     {
-        if (useDifferentURPAssets)
+        if (useDifferentURPAssets && urpAssetScene2 != null)
         {
             SetURPAsset(urpAssetScene2);
         }
@@ -102,5 +107,58 @@ public class SceneAndQualityManager : MonoBehaviour
 
         defaultRendererIndexField.SetValue(urpAsset, rendererIndex);
         Debug.Log($"Default Renderer Index set to {rendererIndex}.");
+    }
+
+    private void SetRenderScaleBasedOnDevice(UniversalRenderPipelineAsset urpAsset)
+    {
+        if (urpAsset == null) return;
+
+        // Determine device type and memory
+        string deviceType = SystemInfo.deviceType.ToString();
+        float memoryInGB = SystemInfo.systemMemorySize / 1024f;
+
+        float renderScale = 1.0f; // Default render scale
+
+        if (Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+            // IOS logic
+            if (memoryInGB >= 6)
+            {
+                renderScale = 1.5f;
+            }
+            else if (memoryInGB >= 4)
+            {
+                renderScale = 1.0f;
+            }
+            else
+            {
+                renderScale = 0.75f;
+            }
+        }
+        else if (Application.platform == RuntimePlatform.Android)
+        {
+            // Android logic
+            if (memoryInGB > 8)
+            {
+                renderScale = 1.5f;
+            }
+            else if (memoryInGB >= 5)
+            {
+                renderScale = 1.0f;
+            }
+            else
+            {
+                renderScale = 0.75f;
+            }
+        }
+        else
+        {
+            // Default for unsupported platforms
+            Debug.LogWarning("Render scale adjustment not supported for this platform.");
+            renderScale = 1.0f;
+        }
+
+        urpAsset.renderScale = renderScale;
+        Debug.Log($"Device Type: {deviceType}, Memory: {memoryInGB}GB, Render Scale Set To: {renderScale} for URP Asset: {urpAsset.name}");
     }
 }
